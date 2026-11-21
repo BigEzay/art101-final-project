@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.Hint {
+    background: #1ae2a6;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.Hint h2 {
+    margin-top: 0;
+}
+
+.Hint li {
+    margin-bottom: 8px;
+}
+
+.Hint a {
+    color: #1d1184;
+    font-weight: bold;
+}
+
+#Macaw {
+    position: absolute;
+    width: 100px;
+    height: auto;
+
+    bottom: 90px;
+    left: 20%;
+
+    cursor: pointer;
+
+    transition: left 0.7s ease, bottom 0.7s ease;
+
+    z-index: 6;
+}
+
+#Macaw:hover {
+    transform: scale(1.15);
+}
